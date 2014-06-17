@@ -1,14 +1,19 @@
-= redmine_cancel_button
+= Redmine Cancel Button
 
-Redmine plugin that You can cancel update the note
+Finally you can stop the update notes
 
-
+http://git.zettabajt.pl:redmine_plugins/cancel_button.git
 
 === Plugin installation
 
-1. Copy the plugin directory into the vendor/plugins directory
+1  Change the name directory to: redmine_cancel_button
 
-2. Migrate plugin:
-   rake db:migrate_plugins RAILS_ENV=production
+2. Copy the plugin directory into the:
+	(Redmine 1.x) vendor/plugins
+	(Redmine 2.x) plugins
 
-3. Start Redmine
+3. Migrate plugin:
+   (Redmine 1.x) rake db:migrate_plugins RAILS_ENV=production
+   (Redmine 2.x) rake redmine:plugins:migrate RAILS_ENV=production
+
+4. Start Redmine
