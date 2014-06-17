@@ -1,0 +1,14 @@
+= redmine_cancel_button
+
+Redmine plugin that You can cancel update the note
+
+
+
+=== Plugin installation
+
+1. Copy the plugin directory into the vendor/plugins directory
+
+2. Migrate plugin:
+   rake db:migrate_plugins RAILS_ENV=production
+
+3. Start Redmine
