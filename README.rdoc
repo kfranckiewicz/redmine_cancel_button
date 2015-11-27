@@ -9,6 +9,7 @@ Supported languages(locales): from redmine core
 Download the plugin from: 
 
     git clone http://git.zettabajt.pl/redmine_plugins/redmine_cancel_button.git
+    git clone https://github.com/kfranckiewicz/redmine_cancel_button.git
 
 1. Copy the plugin directory into the:
 
